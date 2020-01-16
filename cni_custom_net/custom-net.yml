@@ -1,0 +1,22 @@
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata:
+  name: us-east-1a
+spec:
+  subnet: subnet-AAAAAAAAAAAAAAAAA
+
+---
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata:
+  name: us-east-1b
+spec:
+  subnet: subnet-BBBBBBBBBBBBBBBBB
+
+---
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata:
+  name: us-east-1c
+spec:
+  subnet: subnet-CCCCCCCCCCCCCCCCC
